@@ -7,7 +7,7 @@ public class NBody{
 	}
 	public static Planet[] readPlanets(String address){
 		In in = new In(address);
-		Int num = in.readInt();
+		int num = in.readInt();
 		in.readDouble();
 		Planet[] p = new Planet[num];
 		for(int i = 0; i < num ; i = i + 1){
