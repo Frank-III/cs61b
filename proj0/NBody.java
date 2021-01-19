@@ -7,10 +7,10 @@ public class NBody{
 	}
 	public static Planet[] readPlanets(String address){
 		In in = new In(address);
-		in.readInt();
+		Int num = in.readInt();
 		in.readDouble();
-		Planet[] p = new Planet[5];
-		for(int i = 0; i < 5 ; i = i + 1){
+		Planet[] p = new Planet[num];
+		for(int i = 0; i < num ; i = i + 1){
 			double xP = in.readDouble();
 			double yP = in.readDouble();
 			double xV = in.readDouble();
