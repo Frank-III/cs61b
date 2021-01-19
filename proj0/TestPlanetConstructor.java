@@ -63,8 +63,7 @@ public class TestPlanetConstructor {
         checkEquals(mass, p.mass, "mass");
         checkStringEquals(imgFileName, p.imgFileName, "path to image");
 
-        System.out.println("Checking second Planet constructor...");
-
+        System.out.println("Checking second Planet constructor...");s
         Planet pCopy = new Planet(p);
         checkEquals(p.xxPos, pCopy.xxPos, "xxPos");
         checkEquals(p.yyPos, pCopy.yyPos, "yyPos");
